@@ -6,7 +6,7 @@ from novaprinter import prettyPrinter
 import re
 
 class corsaronero(object):
-    url = 'http://ilcorsaronero.gratis'
+    url = 'https://wwv.festivaldellafelicita.it/'
     name = 'Il Corsaro Nero'
     supported_categories = {'all': '0'}
     # maximum number of pages to search in
@@ -14,7 +14,7 @@ class corsaronero(object):
 
     class MyHTMLParser():
         def __init__(self):
-            self.url = 'http://ilcorsaronero.gratis'
+            self.url = 'https://wwv.festivaldellafelicita.it/'
             self.fullResData = []
             self.pageResSize = 0
             self.singleResData = self.getSingleData()
